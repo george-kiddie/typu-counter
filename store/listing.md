@@ -70,4 +70,6 @@ No. All code is packaged in the extension.
 
 ## Privacy policy URL
 
-Опублікуйте файл `PRIVACY.md` з цієї папки (наприклад, на GitHub Pages або як README у публічному репозиторії) і вставте посилання сюди.
+https://github.com/george-kiddie/typu-counter/blob/main/PRIVACY.md
+
+Перед поданням впишіть контактну пошту замість плейсхолдерів у `PRIVACY.md` і запуште.
