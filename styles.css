@@ -1,0 +1,51 @@
+/* Лічильник стилізовано під «пігулки» YouTube в рядку лайк/дизлайк/поділитися.
+   Розміри звірені з кнопкою Share: 40px заввишки, радіус 20px, відступи 0 16px, між кнопками 8px. */
+.typu-counter {
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 16px;
+  margin: 0 8px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.05);
+  color: #0f0f0f;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 40px;
+  white-space: nowrap;
+  cursor: default;
+  user-select: none;
+}
+
+.typu-counter:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.typu-counter-icon {
+  font-size: 16px;
+  line-height: 1;
+  margin-right: 6px;
+}
+
+.typu-counter-count {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Між числом і словом — відстань звичайного пробілу, а не gap. */
+.typu-counter-label {
+  margin-left: 0.25em;
+}
+
+.typu-counter--loading .typu-counter-count {
+  opacity: 0.5;
+}
+
+html[dark] .typu-counter {
+  background: rgba(255, 255, 255, 0.1);
+  color: #f1f1f1;
+}
+
+html[dark] .typu-counter:hover {
+  background: rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,16 @@
+{
+  "name": "typu-counter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dev tooling for the «Типу лічильник» Chrome extension (the extension itself has no build step)",
+  "scripts": {
+    "check": "node --check inject.js && node --check content.js && node -e \"JSON.parse(require('fs').readFileSync('manifest.json','utf8'))\" && echo OK",
+    "zip": "rm -f typu-counter-$npm_package_version.zip && zip -r typu-counter-$npm_package_version.zip manifest.json inject.js content.js styles.css images/icon-16.png images/icon-48.png images/icon-128.png",
+    "screenshots": "node scripts/store-screenshots.js"
+  },
+  "devDependencies": {
+    "puppeteer": "^25.14.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
