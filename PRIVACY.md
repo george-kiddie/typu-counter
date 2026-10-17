@@ -41,7 +41,7 @@
 
 ## Контакт
 
-З питаннями щодо конфіденційності пишіть на: [ваша електронна адреса]
+З питаннями щодо конфіденційності пишіть на: GeorgePetrenko@gmail.com
 
 ---
 
@@ -88,4 +88,4 @@ If the extension ever starts handling data differently, this page will be update
 
 ## Contact
 
-For privacy questions, contact: [your email address]
+For privacy questions, contact: GeorgePetrenko@gmail.com
